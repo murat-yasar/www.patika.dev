@@ -1,0 +1,19 @@
+.center {
+  text-align: center;
+}
+
+.main-title {
+  color: red;
+}
+
+.page-title {
+  color:blueviolet;
+}
+
+.sub-title{
+  color: goldenrod;
+}
+
+li {
+  list-style-position: inside;
+}
