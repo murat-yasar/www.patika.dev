@@ -1,0 +1,16 @@
+1. CREATE TABLE employee (id INTEGER, name VARCHAR(50), birthday DATE, email VARCHAR(100));
+
+2, insert into employee (id, name, email, birthday) values (1, 'Timmy Pohlak', 'tpohlak0@feedburner.com', '1966-11-19');
+
+3. 
+UPDATE employee SET name = 'test1 TEST', birthday = '2023-01-01', email = 'test@mail.com' WHERE id = 1;
+UPDATE employee SET id = 51, birthday = '2023-01-01', email = 'test@mail.com' WHERE name = 'Jaye Scowcraft';
+UPDATE employee SET id = 52, name = 'test3 TEST', email = 'test@mail.com' WHERE birthday = '1987-12-26';
+UPDATE employee SET id = 53, name = 'test4 TEST', birthday = '2023-01-01' WHERE email = 'vshreenan3@mashable.com';
+UPDATE employee SET name = 'test5 TEST', birthday = '2023-01-01', email = 'test@mail.com' WHERE id = 5;
+
+4. 
+DELETE FROM employee WHERE id = 1;
+DELETE FROM employee WHERE name = 'test3 TEST';
+DELETE FROM employee WHERE birthday = '2023-01-01';
+DELETE FROM employee WHERE email = 'test@mail.com';
